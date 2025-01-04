@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -59,6 +59,7 @@ a {
 .welcome-text {
     flex: 1;
     max-width: 500px;
+    font-size: 20px;
 }
 
 .welcome-text-title {
@@ -70,10 +71,12 @@ a {
 button {
     cursor: pointer;
     margin-top: 20px;
-    padding: 5px 10px;
+    padding: 8px 16px;
     border: none;
-    background-color: #F8FAFC;
+    background-color: #7E99A3;
     border-radius: 20px;
+    font-size: 20px;
+    color: #F8FAFC;
 }
 
 .historic-monuments-section {
@@ -128,6 +131,10 @@ button {
     max-width: 700px;
 }
 
+.quote-font {
+    font-family: "Playwrite AU SA", serif;
+}
+
 .quote-message {
     font-style: italic;
     font-size: 36px;
@@ -137,4 +144,47 @@ button {
 .quote-author {
     align-self: flex-end;
     font-size: 24px;
+}
+
+.signup-section {
+    flex: 0 0 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    background-color: #7E99A3;
+    max-width: 800px;
+    padding: 50px 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.signup-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #F8FAFC;
+    margin-bottom: 12px;
+}
+
+.signup-message {
+    font-size: 20px;
+    color: #F8FAFC;
+}
+
+
+.signup-container button {
+    border: 2px solid #F8FAFC;
+}
+
+.footer {
+    background-color: #9AA6B2;
+    padding: 10px;
+    color: #F8FAFC;
+    display: flex;
+    justify-content: center;
 }
