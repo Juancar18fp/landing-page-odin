@@ -10,6 +10,8 @@
 body {
     background-color: #D9EAFD;
     color: #222;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -19,6 +21,7 @@ body {
     padding: 30px;
     background-color: #9AA6B2;
     color: #F8FAFC;
+    flex: 0 0 100%;
 }
 
 .logo {
@@ -44,7 +47,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 50px;
+    flex: 0 0 400px;
 }
 
 .welcome-img {
@@ -74,12 +77,19 @@ button {
 }
 
 .historic-monuments-section {
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 0 0 400px;
 }
+
 
 .historic-monuments {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     flex-wrap: wrap;
 }
@@ -97,6 +107,34 @@ button {
 .historic-monuments-title {
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 20px;
+}
+
+.quote-section {
+    background-color: #BCCCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 400px;
+}
+
+.quote-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 700px;
+}
+
+.quote-message {
+    font-style: italic;
+    font-size: 36px;
+    color: #F8FAFC;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 24px;
 }
