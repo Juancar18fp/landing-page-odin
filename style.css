@@ -9,6 +9,7 @@
 
 body {
     background-color: #D9EAFD;
+    color: #222;
 }
 
 .header {
@@ -60,7 +61,6 @@ a {
 .welcome-text-title {
     font-weight: bold;
     font-size: 35px;
-    color: #222;
     margin-bottom: 20px;
 }
 
@@ -71,4 +71,32 @@ button {
     border: none;
     background-color: #F8FAFC;
     border-radius: 20px;
+}
+
+.historic-monuments-section {
+    padding: 30px;
+}
+
+.historic-monuments {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.historic-monuments-img {
+    height: 200px;
+    width: auto;
+    border:2px solid #9AA6B2;
+}
+
+.historic-monuments-text {
+    text-align: center;
+}
+
+.historic-monuments-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
